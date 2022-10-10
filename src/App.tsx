@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <section className="hero-section">
         <div>
-          <h1>
+          <h1 className="hero-title">
             Your amazing hero title here.
           </h1>
-          <p>
+          <p className="hero-paragraph">
             Your hero paragraph goes here. What problem does your product solve?
           </p>
         </div>
