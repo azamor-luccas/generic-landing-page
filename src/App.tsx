@@ -25,12 +25,16 @@ function App() {
             Your hero paragraph goes here. What problem does your product solve? Put your exaggerated promise here.
           </p></div>
         </div>
-        <div>
+        <div className="hero-buttons-container">
           <a>
+            <div className="filled-btn">
             Action
+            </div>
           </a>
           <a>
+            <div className="filled-btn">
             Another Action
+            </div>
           </a>
         </div>
       </section>
