@@ -6,10 +6,20 @@ function App() {
   return (
     <>
     <div className="App">
+      <div className="nav-container">
+        <div className="logo">YourLogo</div>
+        <div className="nav-left">
+          <div className="nav-left-button">Features</div>
+          <div className="nav-left-button">Pricing</div>
+          <div className="nav-left-button">Docs</div>
+          <div className="nav-left-button">Contact Us</div>
+        </div>
+      </div>
+
       <section className="hero-section">
         <div>
           <h1 className="hero-title">
-            Your amazing hero title here.
+          <span className="hero-title-gradient" >Your amazing</span> hero title here.
           </h1>
           <p className="hero-paragraph">
             Your hero paragraph goes here. What problem does your product solve?
