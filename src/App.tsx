@@ -21,9 +21,9 @@ function App() {
           <h1 className="hero-title">
           <span className="hero-title-gradient" >Your amazing</span> hero title here.
           </h1>
-          <p className="hero-paragraph">
-            Your hero paragraph goes here. What problem does your product solve?
-          </p>
+          <div className="hero-paragraph-container"><p className="hero-paragraph">
+            Your hero paragraph goes here. What problem does your product solve? Put your exaggerated promise here.
+          </p></div>
         </div>
         <div>
           <a>
